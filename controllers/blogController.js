@@ -30,8 +30,18 @@ const blog_create_post = (req, res) => {
     .catch((err) => console.log(err));
 };
 
+const blog_view_by_id = (req, res) => {
+  const _id = req.params.id;
+  Blog.find({ _id })
+    .then((blog) => {
+      res.render("viewpost", { blog: blog[0] });
+    })
+    .catch((err) => console.log(err));
+};
+
 module.exports = {
   blogs_view_all,
   blog_add_form,
   blog_create_post,
+  blog_view_by_id,
 };

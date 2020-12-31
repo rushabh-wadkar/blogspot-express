@@ -16,11 +16,6 @@
   src: url(fonts/Angora.otf);
 }
 
-@font-face {
-  font-family: CardTitle;
-  src: url(fonts/Defitta.ttf);
-}
-
 *,
 html,
 body {
@@ -65,6 +60,7 @@ section.body {
   display: flex;
   justify-content: center;
   overflow: auto;
+  min-height: 78vh;
 }
 
 section.footer {
@@ -192,4 +188,32 @@ body::-webkit-scrollbar-thumb {
   100% {
     opacity: 1;
   }
+}
+.view-post {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.view-post-title {
+  font-weight: bolder;
+  font-size: x-large;
+  border-bottom: 5px solid orange;
+  padding: 5px;
+  margin: 10px;
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+.view-post-body {
+  margin-top: 1vh;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  animation-name: animateIn;
+  animation-duration: 350ms;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
 }

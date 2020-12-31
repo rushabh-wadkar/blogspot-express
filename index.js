@@ -35,6 +35,8 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", controller.blogs_view_all);
 
+app.get("/blog/view/:id", controller.blog_view_by_id);
+
 app.get("/addpost", controller.blog_add_form);
 
 app.post("/createpost", controller.blog_create_post);
