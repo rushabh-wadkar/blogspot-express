@@ -1,12 +1,12 @@
 <form action="/createpost" method="POST">
-    <label for="body-title">Title</label>
-    <input type="text" id="body-title" name="body-title" placeholder="Blog title..">
+    <label for="blogTitle">Title</label>
+    <input type="text" id="blogTitle" required name="blogTitle" placeholder="Blog title..">
 
-    <label for="body-desc">Description</label>
-    <input type="text" id="body-desc" name="body-desc" placeholder="Blog Description ...">
+    <label for="blogTags">Tags</label>
+    <input type="text" id="blogTags" required name="blogTags" placeholder="Blog Tags ... (ex - Technology, Science etc) Comma seperated..">
 
-    <label for="blog-body">Body</label>
-    <textarea id="blog-body" name="blog-body" rows="10" placeholder="Enter blog body..."></textarea>
+    <label for="blogBody">Body</label>
+    <textarea id="blogBody" required name="blogBody" rows="10" placeholder="Enter blog body..."></textarea>
 
     <input type="submit" value="Submit">
 </form>
