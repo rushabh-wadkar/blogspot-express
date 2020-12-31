@@ -62,11 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/rushabh-wadkar/blogspot-express)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+[![][product-start-screenshot]](https://github.com/rushabh-wadkar/blogspot-express)
+[![][product-screenshot]](https://github.com/rushabh-wadkar/blogspot-express)
+[![][product-add-screenshot]](https://github.com/rushabh-wadkar/blogspot-express)
+[![][product-view-screenshot]](https://github.com/rushabh-wadkar/blogspot-express)
 
 
 ### Built With
@@ -74,6 +73,7 @@ Here's a blank template to get started:
 * [Node](https://nodejs.org/)
 * [Express](https://www.npmjs.com/package/express)
 * [Mongoose](https://www.npmjs.com/package/mongoose)
+* [Morgan](https://www.npmjs.com/package/morgan)
 * [MVC](https://www.npmjs.com/package/express-mvc-generator)
 
 
@@ -165,4 +165,7 @@ Project Link: [https://github.com/rushabh-wadkar/blogspot-express](https://githu
 [license-url]: https://github.com/rushabh-wadkar/blogspot-express/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/rushabh-wadkar
-[product-screenshot]: public/screenshots/start-page.png
+[product-screenshot]: public/screenshots/start-page.PNG
+[product-start-screenshot]: public/screenshots/terminal-start.PNG
+[product-add-screenshot]: public/screenshots/add-post.PNG
+[product-view-screenshot]: public/screenshots/view-post.PNG
